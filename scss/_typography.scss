@@ -1,0 +1,48 @@
+// Typography
+h1,
+h2,
+h3 {
+  line-height: 1.1;
+  margin: 0;
+}
+
+h1 {
+  font-size: $fs-h1;
+}
+h2 {
+  font-size: $fs-h2;
+}
+h3 {
+  font-size: $fs-h3;
+}
+
+.section__title {
+  margin-bottom: 0.25em;
+
+  &--intro {
+    font-weight: $fw-reg;
+  }
+
+  > strong {
+    display: block;
+  }
+}
+
+.section__subtitle {
+  margin: 0;
+  font-size: $fs-h3;
+
+  &--intro,
+  &--about {
+    background: $clr-accent;
+    padding: 0.25em 1em;
+    font-family: $ff-secondary;
+    margin-bottom: 1em;
+  }
+}
+
+.section__subtitle--work{
+  color: $clr-accent;
+  font-weight: $fw-bold;
+  margin-bottom: 2em;
+}
